@@ -1,3 +1,42 @@
+# Calo Assessment | Frontend
+
+Steps to get started with the project
+
+### Step1:
+
+```bash
+#install packages
+$ npm i
+```
+
+### Step2:
+
+Create a **.env** file and populate the relevant environment variables.
+For reference **.env.template** is provided
+
+### Step3:
+
+```bash
+#running scripts
+$ npm run start # without watcher
+$ npm run dev # with watcher
+```
+
+# Time Report
+
+- Project Setup & Planning:
+
+  - 2 hours
+
+- Frontend Implementation:
+
+  - UI Design: 10 hours
+  - Authentication: 1 hour
+  - Api Integration: 5 hours
+  - Flows Testing and Implementation: 6 hours
+
+### Total Hours: 24 hours
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
