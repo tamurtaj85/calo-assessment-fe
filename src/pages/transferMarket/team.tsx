@@ -173,6 +173,11 @@ export const Team: React.FC<{
           isGetIsTeamCreatedLoading ||
           isPlayerListOnMarketLoading ? (
             <div className='space-y-6'>
+              {isWaitingForTeam && (
+                <p className='text-muted-foreground'>
+                  Please wait while we create a team for you!
+                </p>
+              )}
               <div className='space-y-2 border rounded-lg p-4'>
                 <Skeleton className='h-4 w-3/4' />
                 <Skeleton className='h-4 w-4/6' />
